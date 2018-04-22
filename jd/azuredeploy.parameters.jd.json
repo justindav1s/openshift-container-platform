@@ -1,0 +1,84 @@
+﻿{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"_artifactsLocation": {
+			"value": "https://raw.githubusercontent.com/Microsoft/openshift-container-platform/master"
+		},
+		"masterVmSize": {
+			"value": "Standard_DS2_v2"
+		},
+		"infraVmSize": {
+			"value": "Standard_DS2_v2"
+		},
+		"nodeVmSize": {
+			"value": "Standard_DS2_v2"
+		},
+		"storageKind": {
+			"value": "managed"
+		},
+		"openshiftClusterPrefix": {
+			"value": "ocpcluster"
+		},
+		"masterInstanceCount": {
+			"value": 1
+		},
+		"infraInstanceCount": {
+			"value": 1
+		},
+		"nodeInstanceCount": {
+			"value": 1
+		},
+		"dataDiskSize": {
+			"value": 64
+		},
+		"adminUsername": {
+			"value": "justin"
+		},
+		"openshiftPassword": {
+			"value": "S@far123"
+		},
+		"enableMetrics": {
+			"value": "true"
+		},
+		"enableLogging": {
+			"value": "true"
+		},
+		"rhsmUsernameOrOrgId": {
+			"value": "justindav1s"
+		},
+		"rhsmPasswordOrActivationKey": {
+			"value": "12jnd34"
+		},
+		"rhsmPoolId": {
+			"value": "8a85f98c617434ce0161743acddf009a"
+		},
+		"sshPublicKey": {
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbA6GrgNwS5+GjCpb0/CvMO99ph6xj4iAEEL9HQGPVub+H3ETeuAIB4wPMUESOIZZBk+C/KMCjVttzJX0kk5qvXtnsjvsj5cxz8xFcsh1HLvcEgOxb5IGICp04jKcCJMO0lYob/ZYbzkdz5FyWoi2tBNvDsVEvi9HWY2t6RVzMQYVNRi+RnU9Ez728nammthgefjv/MB4c1TgjT3Nk7e/vFtY9UAr0yZCavBmKwdMHQaZuvy3vnBOPwTBZP9AX/8mXfeQuFoqUJ7nC6ofpWkbcZcf0QejG8kvRA7MtSXj6XJ3O941VS+vtO+V+qvL4MX4MQxVKgVoGNRns0pXjBAgx jusdavis@jusdavis-OSX.local"
+		},
+		"keyVaultResourceGroup": {
+			"value": "key-vaults"
+		},
+		"keyVaultName": {
+			"value": "jd-ocp-vault"
+		},
+		"keyVaultSecret": {
+			"value": "jd-ssh-key"
+		},
+		"enableAzure": {
+			"value": "true"
+		},
+		"aadClientId": {
+			"value": "6e0fb7fa-dee0-483b-bafd-e9d8c579a668"
+		},
+		"aadClientSecret": {
+			"value": "S@far123"
+		},
+		"defaultSubDomainType": {
+			"value": "custom"
+		},
+		"defaultSubDomain": {
+			"value": "apps.digitaldevops.net"
+		}
+	}
+}
