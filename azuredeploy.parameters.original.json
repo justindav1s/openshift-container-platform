@@ -15,70 +15,70 @@
 			"value": "Standard_DS2_v2"
 		},
 		"storageKind": {
-			"value": "managed"
+			"value": "changeme"
 		},
 		"openshiftClusterPrefix": {
-			"value": "ocpcluster"
+			"value": "changeme"
 		},
 		"masterInstanceCount": {
-			"value": 1
+			"value": 3
 		},
 		"infraInstanceCount": {
-			"value": 1
+			"value": 2
 		},
 		"nodeInstanceCount": {
 			"value": 1
 		},
 		"dataDiskSize": {
-			"value": 64
+			"value": 128
 		},
 		"adminUsername": {
-			"value": "justin"
+			"value": "changeme"
 		},
 		"openshiftPassword": {
-			"value": "S@far123"
+			"value": "changeme"
 		},
 		"enableMetrics": {
-			"value": "true"
+			"value": "false"
 		},
 		"enableLogging": {
-			"value": "true"
+			"value": "false"
 		},
 		"rhsmUsernameOrOrgId": {
-			"value": "justindav1s"
+			"value": "changeme"
 		},
 		"rhsmPasswordOrActivationKey": {
-			"value": "12jnd34"
+			"value": "changeme"
 		},
 		"rhsmPoolId": {
-			"value": "8a85f98c617434ce0161743acddf009a"
+			"value": "changeme"
 		},
 		"sshPublicKey": {
-			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbA6GrgNwS5+GjCpb0/CvMO99ph6xj4iAEEL9HQGPVub+H3ETeuAIB4wPMUESOIZZBk+C/KMCjVttzJX0kk5qvXtnsjvsj5cxz8xFcsh1HLvcEgOxb5IGICp04jKcCJMO0lYob/ZYbzkdz5FyWoi2tBNvDsVEvi9HWY2t6RVzMQYVNRi+RnU9Ez728nammthgefjv/MB4c1TgjT3Nk7e/vFtY9UAr0yZCavBmKwdMHQaZuvy3vnBOPwTBZP9AX/8mXfeQuFoqUJ7nC6ofpWkbcZcf0QejG8kvRA7MtSXj6XJ3O941VS+vtO+V+qvL4MX4MQxVKgVoGNRns0pXjBAgx jusdavis@jusdavis-OSX.local"
+			"value": "GEN-SSH-PUB-KEY"
 		},
 		"keyVaultResourceGroup": {
-			"value": "key-vaults"
+			"value": "changeme"
 		},
 		"keyVaultName": {
-			"value": "jd-ocp-vault"
+			"value": "changeme"
 		},
 		"keyVaultSecret": {
-			"value": "jd-ssh-key"
+			"value": "changeme"
 		},
 		"enableAzure": {
-			"value": "true"
+			"value": "false"
 		},
 		"aadClientId": {
-			"value": "6e0fb7fa-dee0-483b-bafd-e9d8c579a668"
+			"value": "changeme"
 		},
 		"aadClientSecret": {
-			"value": "S@far123"
+			"value": "changeme"
 		},
 		"defaultSubDomainType": {
-			"value": "custom"
+			"value": "nipio"
 		},
 		"defaultSubDomain": {
-			"value": "apps.digitaldevops.net"
+			"value": "changeme"
 		}
 	}
 }

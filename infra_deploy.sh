@@ -7,7 +7,7 @@ az group create -n ${RESOURCE_GROUP} -l uksouth
 
 az group deployment create \
     --name ocpdeployment \
-    --template-file azuredeploy_jd.json \
-    --parameters @azuredeploy.parameters.jd.json \
+    --template-file azuredeploy.json \
+    --parameters @azuredeploy.parameters.json \
     --resource-group ${RESOURCE_GROUP} --no-wait
 
